@@ -3,10 +3,6 @@ require 'byebug'
 
 card_number = "4929735477250543"
 
-#card_number = "79927398710"
-
-#valid = false
-
 # Your Luhn Algorithm Here
 card_number = card_number.split("").map(&:to_i)
 every_other_doubled = []
